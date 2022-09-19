@@ -1,3 +1,4 @@
+// THE PROGRAM IS PRODUCING WRONG OUTPUT FOR TOTAL SALES
 public class DivSales {
 
     double qtr[] = new double[4];
@@ -10,6 +11,8 @@ public class DivSales {
         this.qtr[2] = inp3;
         this.qtr[3] = inp4;
 
+	
+        // total += qtr[0] + qtr[1] + qtr[2] + qtr[3];
         total = qtr[0] + qtr[1] + qtr[2] + qtr[3];
 
     }
